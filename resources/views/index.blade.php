@@ -37,61 +37,72 @@
 
 <!-- ====== Important Links (Scrolling Text) ====== -->
 <div id="marquee1" align="center">
-    <marquee behavior="alternate" scrollamount="3"
-        onmouseover="this.stop();" onmouseout="this.start();">
+    <marquee behavior="alternate" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
 
         @if($first_post)
-            <a href="{{ route('post.single', ['slug' => $first_post->slug ]) }}">
-                <b>{{ $first_post->examname }}</b>
-            </a> ||
+        <a href="{{ route('post.single', ['slug' => $first_post->slug ]) }}">
+            <b>{{ $first_post->examname }}</b>
+        </a> ||
         @endif
 
         @if($second_post)
-            <a href="{{ route('post.single', ['slug' => $second_post->slug ]) }}">
-                <b>{{ $second_post->examname }}</b>
-            </a>
+        <a href="{{ route('post.single', ['slug' => $second_post->slug ]) }}">
+            <b>{{ $second_post->examname }}</b>
+        </a>
         @endif
 
     </marquee>
 </div>
 
 <div id="marquee1" align="center">
-    <marquee behavior="alternate" scrollamount="3"
-        onmouseover="this.stop();" onmouseout="this.start();">
+    <marquee behavior="alternate" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
 
         @if($third_post)
-            <a href="{{ route('post.single', ['slug' => $third_post->slug ]) }}">
-                <b>{{ $third_post->examname }}</b>
-            </a> ||
+        <a href="{{ route('post.single', ['slug' => $third_post->slug ]) }}">
+            <b>{{ $third_post->examname }}</b>
+        </a> ||
         @endif
 
         @if($four_post)
-            <a href="{{ route('post.single', ['slug' => $four_post->slug ]) }}">
-                <b>{{ $four_post->examname }}</b>
-            </a>
+        <a href="{{ route('post.single', ['slug' => $four_post->slug ]) }}">
+            <b>{{ $four_post->examname }}</b>
+        </a>
         @endif
 
     </marquee>
 </div>
 
 <div id="marquee1" align="center">
-    <marquee behavior="alternate" scrollamount="3"
-        onmouseover="this.stop();" onmouseout="this.start();">
+    <marquee behavior="alternate" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">
 
         @if($five_post)
-            <a href="{{ route('post.single', ['slug' => $five_post->slug ]) }}">
-                <b>{{ $five_post->examname }}</b>
-            </a> ||
+        <a href="{{ route('post.single', ['slug' => $five_post->slug ]) }}">
+            <b>{{ $five_post->examname }}</b>
+        </a> ||
         @endif
 
         @if($six_post)
-            <a href="{{ route('post.single', ['slug' => $six_post->slug ]) }}">
-                <b>{{ $six_post->examname }}</b>
-            </a>
+        <a href="{{ route('post.single', ['slug' => $six_post->slug ]) }}">
+            <b>{{ $six_post->examname }}</b>
+        </a>
         @endif
 
     </marquee>
 </div>
+<table class="no-visited" style="margin: auto; border-collapse: collapse; width: auto; border-style: none;">
+    <tbody>
+        <tr style="border-style: none;">
+            <th style="border-style: none;"><a style="display: inline-flex; align-items: center; background-color: #0088cc; color: #fff; padding: 5px 16px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" href="#" target="_blank" rel="noopener nofollow"><br>
+                    <img decoding="async" style="width: 30px; height: 25px; margin-right: 8px;" src="https://sarkariresultforum.com/files/2025/08/telegram-follow.webp" alt="Telegram">Join Telegram<br>
+                </a></th>
+            <th style="border-style: none;"><a style="display: inline-flex; align-items: center; background-color: #25d366; color: #fff; padding: 3px 16px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 16px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" href="#" target="_blank" rel="noopener nofollow"><img decoding="async" style="width: 29px; height: 29px; margin-right: 10px;" src="https://sarkariresultforum.com/files/2025/08/join-whatsapp.webp" alt="WhatsApp">Join WhatsApp<br>
+                </a></th>
+            <th style="border-style: none;"><a style="display: inline-flex; align-items: center; background-color: #000; color: #fff; padding: 5px 18px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 15px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" href="#" target="_blank" rel="nofollow noopener"><br>
+                    <img decoding="async" style="width: 25px; height: 25px; margin-right: 8px;" src="https://sarkariresultforum.com/files/2025/08/Xtwitter-follow.webp" alt="X Logo"><strong>Follow X (Twitter)</strong><br>
+                </a></th>
+        </tr>
+    </tbody>
+</table>
 
 <!-- ====== Colored Job Boxes ====== -->
 <div class="job-boxes" align="center" style="margin-top:20px;">
@@ -199,7 +210,7 @@
                                 </td>
 
             </tr>
-            
+
         </tbody>
     </table>
 </div>
