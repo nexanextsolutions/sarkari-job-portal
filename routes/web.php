@@ -3,6 +3,9 @@ use Spatie\Sitemap\SitemapGenerator;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\FrontEndController;
 
+
+// Test
+
 Route::get('/test', function(){
     return magichomes\User::find(1)->profile;
 });
